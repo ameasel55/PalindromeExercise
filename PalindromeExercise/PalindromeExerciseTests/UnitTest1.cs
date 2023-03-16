@@ -19,8 +19,10 @@ namespace PalindromeExerciseTests
         {
             //arange
 
+            var wordSmith = new WordSmith();
+
             //act
-            var actual = WordSmith.IsAPalindrome(word);
+            var actual = wordSmith.IsAPalindrome(word);
 
             //assert
 
